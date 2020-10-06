@@ -1,12 +1,12 @@
 # HK-Tkinter
-Tkinter begginer Projects
+### Tkinter begginer Projects
 
-Some begginer Python Tkinter Module Projects
+Some __begginer Python Tkinter__ Module Projects
 
-Files:
-#calculator_.py
- -> Basic General Calculator|| 
-#rgb.py
- -> Basic RGB to HexCode Generator|| 
-#pwd.py
- -> Password Generator|| 
+__Files:__
+1. calculator_.py
+    * Basic General __Calculator__
+1. rgb.py
+    * Basic __RGB to HexCode__ Generator 
+1. pwd.py
+    * Normal __Password Generator__
