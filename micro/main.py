@@ -12,6 +12,7 @@ no.	| name
 3   | CALCULATOR
 4   | CELCIUS TO FAHRENHEIT CONVERTER
 5   | EMAIL FILTER
+6   | FIBONACCI SERIES
 ____|_________________________________\033[0m
 """
 print(list)
@@ -32,6 +33,8 @@ while running:
     f.cf_converter()
   elif app == '5':
     f.email_filter()
+  elif app == '6':
+    f.fibonacci()
   elif app == "0":
     running = False
     print('Exiting Programme....')

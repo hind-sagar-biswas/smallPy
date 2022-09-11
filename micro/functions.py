@@ -66,3 +66,26 @@ def email_filter():
       output += char
 
   print(output)
+
+## FIBONACCI SERIES
+def fibonacci():
+  series = '0'
+  previous = 0
+  current = 1
+  sum = 0
+  divider = ' + '
+  limit = int(input('Enter series limit: '))
+  type = input('Enter type [series/sum/list]\n> ')
+  
+  if type == 'series': divider = ' , '
+  elif type == 'sum': divider = ' + '
+  elif type == 'list': divider = '\n'
+  
+  while current <= limit:
+    series += f'{divider}{current}'
+    sum += current
+    new_current = previous + current
+    previous = current
+    current = new_current
+  if type == 'sum': series+= f' = {sum}'
+  print(series)
